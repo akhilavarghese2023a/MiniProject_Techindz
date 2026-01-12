@@ -2,6 +2,7 @@ package MiniProject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -52,15 +53,16 @@ public class FaceBookLogin {           //for runing testing.xml
         }
 
         driver.manage().window().maximize();
-        driver.get("https://www.facebook.com/");
+        driver.get("https://www.ebay.com/");
     }
 
 
     @Test
     public void login() {
 
-    	driver.findElement(By.xpath("//*[@id='email']")).sendKeys("abc@gmail.com");
-    	driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("abc123");
-    	driver.findElement(By.xpath("//*[@id='loginbutton']")).submit();
+    	  WebElement phn = driver.findElement(By.xpath("//*[@title='Search']"));    
+          phn.sendKeys("laptop"); 
+          WebElement lap = driver.findElement(By.xpath("//*[text()='Search']"));   
+          lap.submit();
     }
 }
