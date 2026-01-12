@@ -1,5 +1,6 @@
 package MiniProject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -56,9 +57,10 @@ public class FaceBookLogin {           //for runing testing.xml
 
 
     @Test
-    public void verifyTitle() {
+    public void login() {
 
-        String title = driver.getTitle();
-        System.out.println("Page title is : " + title);
+    	driver.findElement(By.xpath("//*[@id='email']")).sendKeys("abc@gmail.com");
+    	driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("abc123");
+    	driver.findElement(By.xpath("//*[@id='loginbutton']")).submit();
     }
 }
