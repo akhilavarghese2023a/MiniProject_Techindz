@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [CrossBrowserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="BraveTest(failed)">
+    <parameter name="browser" value="brave"/>
+    <classes>
+      <class name="MiniProject.FaceBookLogin">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- MiniProject.FaceBookLogin -->
+    </classes>
+  </test> <!-- BraveTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowserSuite] -->

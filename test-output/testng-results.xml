@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-12T17:35:49 IST" name="CrossBrowserSuite" finished-at="2026-01-12T17:36:07 IST" duration-ms="17775">
+    <groups>
+    </groups>
+    <test started-at="2026-01-12T17:35:49 IST" name="BraveTest" finished-at="2026-01-12T17:35:49 IST" duration-ms="93">
+      <class name="MiniProject.FaceBookLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:MiniProject.FaceBookLogin@38d8f54a]" started-at="2026-01-12T17:35:49 IST" name="setup" finished-at="2026-01-12T17:35:49 IST" duration-ms="21" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[brave]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Browser not supported: brave]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Browser not supported: brave
+at MiniProject.FaceBookLogin.setup(FaceBookLogin.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:MiniProject.FaceBookLogin@38d8f54a]" started-at="2026-01-12T17:35:49 IST" name="verifyTitle" finished-at="2026-01-12T17:35:49 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Browser not supported: brave]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Browser not supported: brave
+at MiniProject.FaceBookLogin.setup(FaceBookLogin.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- MiniProject.FaceBookLogin -->
+    </test> <!-- BraveTest -->
+    <test started-at="2026-01-12T17:35:49 IST" name="EdgeTest" finished-at="2026-01-12T17:35:56 IST" duration-ms="7165">
+      <class name="MiniProject.FaceBookLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:MiniProject.FaceBookLogin@f6efaab]" started-at="2026-01-12T17:35:49 IST" name="setup" finished-at="2026-01-12T17:35:56 IST" duration-ms="7131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:MiniProject.FaceBookLogin@f6efaab]" started-at="2026-01-12T17:35:56 IST" name="verifyTitle" finished-at="2026-01-12T17:35:56 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- MiniProject.FaceBookLogin -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2026-01-12T17:35:49 IST" name="ChromeTest" finished-at="2026-01-12T17:35:56 IST" duration-ms="7255">
+      <class name="MiniProject.FaceBookLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:MiniProject.FaceBookLogin@1283bb96]" started-at="2026-01-12T17:35:49 IST" name="setup" finished-at="2026-01-12T17:35:56 IST" duration-ms="7228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:MiniProject.FaceBookLogin@1283bb96]" started-at="2026-01-12T17:35:56 IST" name="verifyTitle" finished-at="2026-01-12T17:35:56 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- MiniProject.FaceBookLogin -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-01-12T17:35:49 IST" name="FirefoxTest" finished-at="2026-01-12T17:36:07 IST" duration-ms="17775">
+      <class name="MiniProject.FaceBookLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:MiniProject.FaceBookLogin@1aa7ecca]" started-at="2026-01-12T17:35:49 IST" name="setup" finished-at="2026-01-12T17:36:07 IST" duration-ms="17731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:MiniProject.FaceBookLogin@1aa7ecca]" started-at="2026-01-12T17:36:07 IST" name="verifyTitle" finished-at="2026-01-12T17:36:07 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- MiniProject.FaceBookLogin -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>
